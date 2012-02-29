@@ -2,6 +2,7 @@ package com.example;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.ImageView;
 
 public class TardisActivity extends Activity
 {
@@ -11,5 +12,6 @@ public class TardisActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        ImageView tardisButton = (ImageView)findViewById(R.id.tardis);
     }
 }
