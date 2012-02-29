@@ -2,7 +2,9 @@ package com.example;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class TardisActivity extends Activity
 {
@@ -13,5 +15,13 @@ public class TardisActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         ImageView tardisButton = (ImageView)findViewById(R.id.tardis);
+        tardisButton.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick (View view)
+            {
+                Toast.makeText(TardisActivity.this, R.string.timey_wimey, Toast.LENGTH_LONG).show();
+            }
+        });
     }
 }
