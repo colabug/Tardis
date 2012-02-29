@@ -2,4 +2,8 @@
 <resources>
     <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
     </style>
+    
+    <style name="StandardText">
+        <item name="android:textSize">20dp</item>
+    </style>
 </resources>
