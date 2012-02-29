@@ -9,7 +9,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/welcome_string"
-        style="@style/StandardText"/>
+        style="@style/StandardText"
+        android:gravity="center"/>
 
     <ImageView
         android:layout_width="wrap_content"
