@@ -12,7 +12,7 @@
         android:text="@string/welcome_inside_string"
         style="@style/StandardText"
         android:gravity="center"
-        android:paddingTop="20dp"/>
+        android:padding="@dimen/header_padding"/>
 
     <!--Image-->
     <ImageView
