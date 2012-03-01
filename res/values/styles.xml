@@ -10,7 +10,7 @@
     </style>
 
     <!--Text style through out the app-->
-    <style name="H1">
+    <style name="H1" parent="WrappedText">
         <item name="android:textSize">@dimen/text_size</item>
         <item name="android:textColor">@color/TardisBlue</item>
         <item name="android:gravity">center</item>
