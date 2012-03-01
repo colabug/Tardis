@@ -13,14 +13,18 @@ public class InsideTardisActivity extends Activity
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+
+        // Associate a view with this screen
         setContentView(R.layout.inside_tardis);
 
+        // Get handle on the image view for click events
         ImageView insideTardisButton = (ImageView)findViewById(R.id.inside_tardis);
         insideTardisButton.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick (View view)
             {
+                // Show your favorite Doctor Who quote
                 Toast.makeText(InsideTardisActivity.this, R.string.timey_wimey, Toast.LENGTH_LONG).show();
             }
         });

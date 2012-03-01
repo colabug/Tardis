@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--App theme: Kill the title bar, use a light background-->
     <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
     </style>
-    
+
+    <!--Text style through out the app-->
     <style name="StandardText">
         <item name="android:textSize">20dp</item>
         <item name="android:textColor">@color/TardisBlue</item>

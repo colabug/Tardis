@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--Used color picker in IntelliJ to grab this color-->
     <color name="TardisBlue">#ff4976b0</color>
 </resources>

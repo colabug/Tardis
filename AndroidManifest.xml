@@ -9,6 +9,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
 
+        <!--Outside Tardis-->
         <activity
             android:name="TardisActivity"
             android:label="@string/app_name"
@@ -20,6 +21,7 @@
             </intent-filter>
         </activity>
 
+        <!--Inside Tardis-->
         <activity
             android:name=".InsideTardisActivity"/>
     </application>

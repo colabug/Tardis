@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--Application name: Shows up in title bars & recent apps list-->
     <string name="app_name">Tardis</string>
+
+    <!--Screen headers-->
     <string name="welcome_string">Hello World, Hello Doctor</string>
     <string name="welcome_inside_string">I\'m bigger on the inside!</string>
+
+    <!--Quote for Toast-->
     <string name="timey_wimey">[Time] is more like a big ball of wibbly wobbly ... time-y wimey ... stuff.</string>
 </resources>
