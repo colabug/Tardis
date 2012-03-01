@@ -13,8 +13,7 @@
     <!--Image-->
     <ImageView
         android:id="@+id/inside_tardis"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/inside_tardis"/>
+        android:src="@drawable/inside_tardis"
+        style="@style/WrappedWidthAndHeight"/>
 </LinearLayout>
 
