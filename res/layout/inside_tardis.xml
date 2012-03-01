@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/FillScreenVerticalLinearLayout">
 
-    <!--Greeting-->
-    <TextView
-        android:text="@string/welcome_inside_string"
-        style="@style/H1"/>
-
-    <!--Image-->
-    <ImageView
-        android:id="@+id/inside_tardis"
-        android:src="@drawable/inside_tardis"
-        style="@style/WrappedWidthAndHeight"/>
+    <!--Inside Tardis fragment-->
+    <fragment
+        class="com.example.InsideTardisFragment"
+        style="@style/FillWidthAndHeight"/>
 </LinearLayout>
 
