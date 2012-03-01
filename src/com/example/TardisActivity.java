@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 public class TardisActivity extends Activity
 {
@@ -21,7 +20,6 @@ public class TardisActivity extends Activity
             @Override
             public void onClick (View view)
             {
-                Toast.makeText(TardisActivity.this, R.string.timey_wimey, Toast.LENGTH_LONG).show();
                 startActivity(new Intent(TardisActivity.this, InsideTardisActivity.class));
             }
         });
