@@ -5,7 +5,7 @@
     </style>
 
     <!--Text style through out the app-->
-    <style name="StandardText">
+    <style name="H1">
         <item name="android:textSize">@dimen/text_size</item>
         <item name="android:textColor">@color/TardisBlue</item>
         <item name="android:gravity">center</item>
