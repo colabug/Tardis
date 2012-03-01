@@ -6,7 +6,7 @@
 
     <!--Text style through out the app-->
     <style name="StandardText">
-        <item name="android:textSize">20dp</item>
+        <item name="android:textSize">@dimen/text_size</item>
         <item name="android:textColor">@color/TardisBlue</item>
     </style>
 </resources>
