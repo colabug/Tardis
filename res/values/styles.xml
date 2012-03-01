@@ -15,6 +15,11 @@
         <item name="android:orientation">vertical</item>
     </style>
 
+    <!--Fill screen horizontally-->
+    <style name="FillScreenHorizontalLinearLayout" parent="FillWidthAndHeight">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
     <!--Wrapped width and height-->
     <style name="WrappedWidthAndHeight">
         <item name="android:layout_width">wrap_content</item>
@@ -27,5 +32,15 @@
         <item name="android:textColor">@color/TardisBlue</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:padding">@dimen/header_padding</item>
+    </style>
+
+    <style name="LeftFragment">
+        <item name="android:layout_width">@dimen/left_fragment_width</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <style name="RightFragment">
+        <item name="android:layout_width">@dimen/left_fragment_width</item>
+        <item name="android:layout_height">fill_parent</item>
     </style>
 </resources>

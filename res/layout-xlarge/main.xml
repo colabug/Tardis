@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/FillScreenHorizontalLinearLayout">
+
+    <!--Tardis fragment-->
+    <fragment
+        class="com.example.TardisFragment"
+        style="@style/LeftFragment"/>
+
+    <!--Inside Tardis fragment-->
+    <fragment
+        class="com.example.InsideTardisFragment"
+        style="@style/RightFragment"/>
+</LinearLayout>
+

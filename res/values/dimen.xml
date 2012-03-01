@@ -2,4 +2,6 @@
 <resources>
     <dimen name="text_size">20dp</dimen>
     <dimen name="header_padding">10dp</dimen>
+    <dimen name="left_fragment_width">300dp</dimen>
+    <dimen name="right_fragment_width">500dp</dimen>
 </resources>
