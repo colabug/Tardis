@@ -10,6 +10,11 @@
         <item name="android:layout_height">fill_parent</item>
     </style>
 
+    <!--Fill screen vertically-->
+    <style name="FillScreenVerticalLinearLayout" parent="FillWidthAndHeight">
+        <item name="android:orientation">vertical</item>
+    </style>
+
     <!--Wrapped width and height-->
     <style name="WrappedWidthAndHeight">
         <item name="android:layout_width">wrap_content</item>
