@@ -1,6 +1,7 @@
 package com.example;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -21,6 +22,7 @@ public class TardisActivity extends Activity
             public void onClick (View view)
             {
                 Toast.makeText(TardisActivity.this, R.string.timey_wimey, Toast.LENGTH_LONG).show();
+                startActivity(new Intent(TardisActivity.this, InsideTardisActivity.class));
             }
         });
     }
