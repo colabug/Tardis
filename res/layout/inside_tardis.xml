@@ -10,9 +10,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/welcome_inside_string"
-        style="@style/StandardText"
-        android:gravity="center"
-        android:padding="@dimen/header_padding"/>
+        style="@style/StandardText"/>
 
     <!--Image-->
     <ImageView

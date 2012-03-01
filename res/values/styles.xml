@@ -8,5 +8,7 @@
     <style name="StandardText">
         <item name="android:textSize">@dimen/text_size</item>
         <item name="android:textColor">@color/TardisBlue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/header_padding</item>
     </style>
 </resources>
